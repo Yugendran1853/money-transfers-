@@ -1,0 +1,56 @@
+[4/12, 8:51 PM] pathmanaban: <!DOCTYPE html>
+<html>
+<head>
+	<title>Money Transfer webpage</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Money Transfer webpage</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Transfer</a></li>
+			<li><a href="#">Transactions</a></li>
+			<li><a href="#">Profile</a></li>
+                     <li><a href="#">login</a></li>
+		</ul>
+	</nav>
+	<main>
+		<form>
+                    <center>
+			<label for="from_account">From Account:</label>
+			<select id="from_account" name="from_account">
+				<option value="Current ">Current Account</option>
+				<option value="savings">Savings Account</option>
+			</select>
+                       </center>
+			<br>
+                        <center>
+			<label for="to_account">To Account:</label>
+			<input type="number" id="to_account" name="to_account">
+                       </center>
+			<br>
+                       <center>
+			<label for="amount">Amount:</label>
+			<input type="number" id="amount" name="amount">
+                     </center>
+			<br>
+                    <center>
+			<label for="IFSC CODE">IFSC CODE:</label>
+			<input type="text " id="IFSC CODE" name="IFSC CODE">
+                       </center>
+			<br>
+                          <center>
+			<input type="submit" value="Transfer">
+                             </center>
+		</form>
+	</main>
+	<footer>
+		<p>&copy; 2023 Money Transfer Page</p>
+             
+	</footer>
+    
+</body>
+</html>
