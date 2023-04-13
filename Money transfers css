@@ -1,0 +1,86 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header, nav, main, footer {
+	display: block;
+}
+
+header {
+	background-color: #FF0000;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+
+nav {
+	background-color:#00FFFF ;
+	padding: 17px;
+       text-align:center;
+       text-color#808080:
+       
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav ul li a {
+	color: #333;
+	text-decoration: none;
+      padding:10px;
+}
+
+nav ul li a:hover {
+	color: #fff;
+	background-color: #333;
+}
+
+main {
+	margin: 20px;
+}
+
+form label {
+	display: inline-block;
+	width: 100px;
+}
+
+form input[type="text"], form input[type="number"], form select {
+	margin-bottom: 10px;
+	padding: 5px;
+	width: 200px;
+}
+
+form input[type="submit"] {
+	background-color: #333;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	padding: 10px;
+}
+
+form input[type="submit"]:hover {
+	background-color: #666;
+}
+footer
+{
+   text-align:center;
+   text-color#999;
+  background-color:#ff727c;
+  position:absolute;
+  padding:10px;
+ font-size:18px;
+ right:0;
+ left:0;
+bottom:0;
+
+}
